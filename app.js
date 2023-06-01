@@ -12,7 +12,6 @@ const ordersRouter = require("./routes/orders");
 const paymentsRouter = require("./routes/payments");
 
 const app = express();
-
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
